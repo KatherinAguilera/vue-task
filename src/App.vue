@@ -1,7 +1,7 @@
 <template>
   <div class="row" id="app">
     <div class="col-md-8 col-md-offset-2 panel panel-default task">
-        <div class="col-md-12"><img class="img-responsive" src="./assets/tasks-banner.jpg" alt="Tasks!" /></div>
+        <div class="col-md-12"><img class="img-responsive" src="../dist/static/img/tasks-banner.jpg" alt="Tasks!" /></div>
         <div class="col-md-6">
             <h1>{{name}}</h1>
             <form class="form-horizontal" v-on:submit.prevent="addTask">
